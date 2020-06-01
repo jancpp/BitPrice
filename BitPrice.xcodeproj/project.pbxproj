@@ -13,6 +13,7 @@
 		3D5B5BC424847B5B00BDB8F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D5B5BC324847B5B00BDB8F9 /* Assets.xcassets */; };
 		3D5B5BC724847B5B00BDB8F9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D5B5BC624847B5B00BDB8F9 /* Preview Assets.xcassets */; };
 		3D5B5BCA24847B5C00BDB8F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D5B5BC824847B5C00BDB8F9 /* LaunchScreen.storyboard */; };
+		3D5B5BD224847C5900BDB8F9 /* BitData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D5B5BD124847C5900BDB8F9 /* BitData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		3D5B5BC624847B5B00BDB8F9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3D5B5BC924847B5C00BDB8F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3D5B5BCB24847B5C00BDB8F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D5B5BD124847C5900BDB8F9 /* BitData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BitData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				3D5B5BBD24847B5B00BDB8F9 /* AppDelegate.swift */,
 				3D5B5BBF24847B5B00BDB8F9 /* SceneDelegate.swift */,
 				3D5B5BC124847B5B00BDB8F9 /* ContentView.swift */,
+				3D5B5BD124847C5900BDB8F9 /* BitData.swift */,
 				3D5B5BC324847B5B00BDB8F9 /* Assets.xcassets */,
 				3D5B5BC824847B5C00BDB8F9 /* LaunchScreen.storyboard */,
 				3D5B5BCB24847B5C00BDB8F9 /* Info.plist */,
@@ -147,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3D5B5BBE24847B5B00BDB8F9 /* AppDelegate.swift in Sources */,
+				3D5B5BD224847C5900BDB8F9 /* BitData.swift in Sources */,
 				3D5B5BC024847B5B00BDB8F9 /* SceneDelegate.swift in Sources */,
 				3D5B5BC224847B5B00BDB8F9 /* ContentView.swift in Sources */,
 			);
