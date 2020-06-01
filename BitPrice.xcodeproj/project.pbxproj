@@ -28,7 +28,61 @@
 		3D5B5C1424848B8000BDB8F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D5B5C1224848B8000BDB8F9 /* LaunchScreen.storyboard */; };
 		3D5B5C1924848BF900BDB8F9 /* BitData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D5B5BD124847C5900BDB8F9 /* BitData.swift */; };
 		3D5B5C1A24848BFD00BDB8F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D5B5BC324847B5B00BDB8F9 /* Assets.xcassets */; };
+		3D5B5C2124848F1400BDB8F9 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D5B5C1F24848F1400BDB8F9 /* Interface.storyboard */; };
+		3D5B5C2324848F1500BDB8F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D5B5C2224848F1500BDB8F9 /* Assets.xcassets */; };
+		3D5B5C2A24848F1500BDB8F9 /* BitPriceWatch Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 3D5B5C2924848F1500BDB8F9 /* BitPriceWatch Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		3D5B5C2F24848F1500BDB8F9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D5B5C2E24848F1500BDB8F9 /* ContentView.swift */; };
+		3D5B5C3124848F1500BDB8F9 /* HostingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D5B5C3024848F1500BDB8F9 /* HostingController.swift */; };
+		3D5B5C3324848F1500BDB8F9 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D5B5C3224848F1500BDB8F9 /* ExtensionDelegate.swift */; };
+		3D5B5C3524848F1600BDB8F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D5B5C3424848F1600BDB8F9 /* Assets.xcassets */; };
+		3D5B5C3824848F1600BDB8F9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D5B5C3724848F1600BDB8F9 /* Preview Assets.xcassets */; };
+		3D5B5C3C24848F1600BDB8F9 /* BitPriceWatch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 3D5B5C1D24848F1400BDB8F9 /* BitPriceWatch.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		3D5B5C4524848F3F00BDB8F9 /* BitData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D5B5BD124847C5900BDB8F9 /* BitData.swift */; };
+		3D5B5C4624848F4400BDB8F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D5B5BC324847B5B00BDB8F9 /* Assets.xcassets */; };
+		3D5B5C4724848F4400BDB8F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D5B5BC324847B5B00BDB8F9 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3D5B5C2B24848F1500BDB8F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D5B5BB224847B5B00BDB8F9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D5B5C2824848F1500BDB8F9;
+			remoteInfo = "BitPriceWatch Extension";
+		};
+		3D5B5C3A24848F1600BDB8F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D5B5BB224847B5B00BDB8F9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D5B5C1C24848F1400BDB8F9;
+			remoteInfo = BitPriceWatch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3D5B5C4024848F1600BDB8F9 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				3D5B5C2A24848F1500BDB8F9 /* BitPriceWatch Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D5B5C4424848F1600BDB8F9 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				3D5B5C3C24848F1600BDB8F9 /* BitPriceWatch.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		3D5B5BBA24847B5B00BDB8F9 /* BitPrice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BitPrice.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -55,6 +109,17 @@
 		3D5B5C1024848B8000BDB8F9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3D5B5C1324848B8000BDB8F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3D5B5C1524848B8000BDB8F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D5B5C1D24848F1400BDB8F9 /* BitPriceWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BitPriceWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D5B5C2024848F1400BDB8F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		3D5B5C2224848F1500BDB8F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3D5B5C2424848F1500BDB8F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D5B5C2924848F1500BDB8F9 /* BitPriceWatch Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "BitPriceWatch Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D5B5C2E24848F1500BDB8F9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3D5B5C3024848F1500BDB8F9 /* HostingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HostingController.swift; sourceTree = "<group>"; };
+		3D5B5C3224848F1500BDB8F9 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		3D5B5C3424848F1600BDB8F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3D5B5C3724848F1600BDB8F9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3D5B5C3924848F1600BDB8F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +144,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		3D5B5C2624848F1500BDB8F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -88,6 +160,8 @@
 				3D5B5BBC24847B5B00BDB8F9 /* BitPrice */,
 				3D5B5BEF2484880200BDB8F9 /* BitPriceMac */,
 				3D5B5C0824848B7F00BDB8F9 /* BitPriceTV */,
+				3D5B5C1E24848F1400BDB8F9 /* BitPriceWatch */,
+				3D5B5C2D24848F1500BDB8F9 /* BitPriceWatch Extension */,
 				3D5B5BBB24847B5B00BDB8F9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -98,6 +172,8 @@
 				3D5B5BBA24847B5B00BDB8F9 /* BitPrice.app */,
 				3D5B5BEE2484880200BDB8F9 /* BitPriceMac.app */,
 				3D5B5C0724848B7F00BDB8F9 /* BitPriceTV.app */,
+				3D5B5C1D24848F1400BDB8F9 /* BitPriceWatch.app */,
+				3D5B5C2924848F1500BDB8F9 /* BitPriceWatch Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -168,6 +244,37 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		3D5B5C1E24848F1400BDB8F9 /* BitPriceWatch */ = {
+			isa = PBXGroup;
+			children = (
+				3D5B5C1F24848F1400BDB8F9 /* Interface.storyboard */,
+				3D5B5C2224848F1500BDB8F9 /* Assets.xcassets */,
+				3D5B5C2424848F1500BDB8F9 /* Info.plist */,
+			);
+			path = BitPriceWatch;
+			sourceTree = "<group>";
+		};
+		3D5B5C2D24848F1500BDB8F9 /* BitPriceWatch Extension */ = {
+			isa = PBXGroup;
+			children = (
+				3D5B5C2E24848F1500BDB8F9 /* ContentView.swift */,
+				3D5B5C3024848F1500BDB8F9 /* HostingController.swift */,
+				3D5B5C3224848F1500BDB8F9 /* ExtensionDelegate.swift */,
+				3D5B5C3424848F1600BDB8F9 /* Assets.xcassets */,
+				3D5B5C3924848F1600BDB8F9 /* Info.plist */,
+				3D5B5C3624848F1600BDB8F9 /* Preview Content */,
+			);
+			path = "BitPriceWatch Extension";
+			sourceTree = "<group>";
+		};
+		3D5B5C3624848F1600BDB8F9 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3D5B5C3724848F1600BDB8F9 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -178,10 +285,12 @@
 				3D5B5BB624847B5B00BDB8F9 /* Sources */,
 				3D5B5BB724847B5B00BDB8F9 /* Frameworks */,
 				3D5B5BB824847B5B00BDB8F9 /* Resources */,
+				3D5B5C4424848F1600BDB8F9 /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				3D5B5C3B24848F1600BDB8F9 /* PBXTargetDependency */,
 			);
 			name = BitPrice;
 			productName = BitPrice;
@@ -222,6 +331,40 @@
 			productReference = 3D5B5C0724848B7F00BDB8F9 /* BitPriceTV.app */;
 			productType = "com.apple.product-type.application";
 		};
+		3D5B5C1C24848F1400BDB8F9 /* BitPriceWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D5B5C4124848F1600BDB8F9 /* Build configuration list for PBXNativeTarget "BitPriceWatch" */;
+			buildPhases = (
+				3D5B5C1B24848F1400BDB8F9 /* Resources */,
+				3D5B5C4024848F1600BDB8F9 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3D5B5C2C24848F1500BDB8F9 /* PBXTargetDependency */,
+			);
+			name = BitPriceWatch;
+			productName = BitPriceWatch;
+			productReference = 3D5B5C1D24848F1400BDB8F9 /* BitPriceWatch.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		3D5B5C2824848F1500BDB8F9 /* BitPriceWatch Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D5B5C3D24848F1600BDB8F9 /* Build configuration list for PBXNativeTarget "BitPriceWatch Extension" */;
+			buildPhases = (
+				3D5B5C2524848F1500BDB8F9 /* Sources */,
+				3D5B5C2624848F1500BDB8F9 /* Frameworks */,
+				3D5B5C2724848F1500BDB8F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BitPriceWatch Extension";
+			productName = "BitPriceWatch Extension";
+			productReference = 3D5B5C2924848F1500BDB8F9 /* BitPriceWatch Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -239,6 +382,12 @@
 						CreatedOnToolsVersion = 11.4.1;
 					};
 					3D5B5C0624848B7F00BDB8F9 = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+					3D5B5C1C24848F1400BDB8F9 = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+					3D5B5C2824848F1500BDB8F9 = {
 						CreatedOnToolsVersion = 11.4.1;
 					};
 				};
@@ -259,6 +408,8 @@
 				3D5B5BB924847B5B00BDB8F9 /* BitPrice */,
 				3D5B5BED2484880200BDB8F9 /* BitPriceMac */,
 				3D5B5C0624848B7F00BDB8F9 /* BitPriceTV */,
+				3D5B5C1C24848F1400BDB8F9 /* BitPriceWatch */,
+				3D5B5C2824848F1500BDB8F9 /* BitPriceWatch Extension */,
 			);
 		};
 /* End PBXProject section */
@@ -296,6 +447,26 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		3D5B5C1B24848F1400BDB8F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D5B5C2324848F1500BDB8F9 /* Assets.xcassets in Resources */,
+				3D5B5C4624848F4400BDB8F9 /* Assets.xcassets in Resources */,
+				3D5B5C2124848F1400BDB8F9 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D5B5C2724848F1500BDB8F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D5B5C3824848F1600BDB8F9 /* Preview Assets.xcassets in Resources */,
+				3D5B5C4724848F4400BDB8F9 /* Assets.xcassets in Resources */,
+				3D5B5C3524848F1600BDB8F9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -330,7 +501,31 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		3D5B5C2524848F1500BDB8F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D5B5C3124848F1500BDB8F9 /* HostingController.swift in Sources */,
+				3D5B5C4524848F3F00BDB8F9 /* BitData.swift in Sources */,
+				3D5B5C2F24848F1500BDB8F9 /* ContentView.swift in Sources */,
+				3D5B5C3324848F1500BDB8F9 /* ExtensionDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3D5B5C2C24848F1500BDB8F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3D5B5C2824848F1500BDB8F9 /* BitPriceWatch Extension */;
+			targetProxy = 3D5B5C2B24848F1500BDB8F9 /* PBXContainerItemProxy */;
+		};
+		3D5B5C3B24848F1600BDB8F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3D5B5C1C24848F1400BDB8F9 /* BitPriceWatch */;
+			targetProxy = 3D5B5C3A24848F1600BDB8F9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		3D5B5BC824847B5C00BDB8F9 /* LaunchScreen.storyboard */ = {
@@ -355,6 +550,14 @@
 				3D5B5C1324848B8000BDB8F9 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		3D5B5C1F24848F1400BDB8F9 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D5B5C2024848F1400BDB8F9 /* Base */,
+			);
+			name = Interface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -606,6 +809,92 @@
 			};
 			name = Release;
 		};
+		3D5B5C3E24848F1600BDB8F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"BitPriceWatch Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = 5SQFG95Y4R;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "BitPriceWatch Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.appskc.BitPrice.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.2;
+			};
+			name = Debug;
+		};
+		3D5B5C3F24848F1600BDB8F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"BitPriceWatch Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = 5SQFG95Y4R;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "BitPriceWatch Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.appskc.BitPrice.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.2;
+			};
+			name = Release;
+		};
+		3D5B5C4224848F1600BDB8F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5SQFG95Y4R;
+				IBSC_MODULE = BitPriceWatch_Extension;
+				INFOPLIST_FILE = BitPriceWatch/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.appskc.BitPrice.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.2;
+			};
+			name = Debug;
+		};
+		3D5B5C4324848F1600BDB8F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5SQFG95Y4R;
+				IBSC_MODULE = BitPriceWatch_Extension;
+				INFOPLIST_FILE = BitPriceWatch/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.appskc.BitPrice.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.2;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -641,6 +930,24 @@
 			buildConfigurations = (
 				3D5B5C1724848B8000BDB8F9 /* Debug */,
 				3D5B5C1824848B8000BDB8F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D5B5C3D24848F1600BDB8F9 /* Build configuration list for PBXNativeTarget "BitPriceWatch Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D5B5C3E24848F1600BDB8F9 /* Debug */,
+				3D5B5C3F24848F1600BDB8F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D5B5C4124848F1600BDB8F9 /* Build configuration list for PBXNativeTarget "BitPriceWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D5B5C4224848F1600BDB8F9 /* Debug */,
+				3D5B5C4324848F1600BDB8F9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
