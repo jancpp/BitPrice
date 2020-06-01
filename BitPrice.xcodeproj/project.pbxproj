@@ -14,6 +14,20 @@
 		3D5B5BC724847B5B00BDB8F9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D5B5BC624847B5B00BDB8F9 /* Preview Assets.xcassets */; };
 		3D5B5BCA24847B5C00BDB8F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D5B5BC824847B5C00BDB8F9 /* LaunchScreen.storyboard */; };
 		3D5B5BD224847C5900BDB8F9 /* BitData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D5B5BD124847C5900BDB8F9 /* BitData.swift */; };
+		3D5B5BF12484880200BDB8F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D5B5BF02484880200BDB8F9 /* AppDelegate.swift */; };
+		3D5B5BF32484880200BDB8F9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D5B5BF22484880200BDB8F9 /* ContentView.swift */; };
+		3D5B5BF52484880300BDB8F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D5B5BF42484880300BDB8F9 /* Assets.xcassets */; };
+		3D5B5BF82484880300BDB8F9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D5B5BF72484880300BDB8F9 /* Preview Assets.xcassets */; };
+		3D5B5BFB2484880300BDB8F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D5B5BF92484880300BDB8F9 /* Main.storyboard */; };
+		3D5B5C01248488EC00BDB8F9 /* BitData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D5B5BD124847C5900BDB8F9 /* BitData.swift */; };
+		3D5B5C02248488FA00BDB8F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D5B5BC324847B5B00BDB8F9 /* Assets.xcassets */; };
+		3D5B5C0A24848B7F00BDB8F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D5B5C0924848B7F00BDB8F9 /* AppDelegate.swift */; };
+		3D5B5C0C24848B7F00BDB8F9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D5B5C0B24848B7F00BDB8F9 /* ContentView.swift */; };
+		3D5B5C0E24848B8000BDB8F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D5B5C0D24848B8000BDB8F9 /* Assets.xcassets */; };
+		3D5B5C1124848B8000BDB8F9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D5B5C1024848B8000BDB8F9 /* Preview Assets.xcassets */; };
+		3D5B5C1424848B8000BDB8F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D5B5C1224848B8000BDB8F9 /* LaunchScreen.storyboard */; };
+		3D5B5C1924848BF900BDB8F9 /* BitData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D5B5BD124847C5900BDB8F9 /* BitData.swift */; };
+		3D5B5C1A24848BFD00BDB8F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D5B5BC324847B5B00BDB8F9 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,10 +40,39 @@
 		3D5B5BC924847B5C00BDB8F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3D5B5BCB24847B5C00BDB8F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3D5B5BD124847C5900BDB8F9 /* BitData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BitData.swift; sourceTree = "<group>"; };
+		3D5B5BEE2484880200BDB8F9 /* BitPriceMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BitPriceMac.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D5B5BF02484880200BDB8F9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3D5B5BF22484880200BDB8F9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3D5B5BF42484880300BDB8F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3D5B5BF72484880300BDB8F9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3D5B5BFA2484880300BDB8F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3D5B5BFC2484880300BDB8F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D5B5BFD2484880300BDB8F9 /* BitPriceMac.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BitPriceMac.entitlements; sourceTree = "<group>"; };
+		3D5B5C0724848B7F00BDB8F9 /* BitPriceTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BitPriceTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D5B5C0924848B7F00BDB8F9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3D5B5C0B24848B7F00BDB8F9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3D5B5C0D24848B8000BDB8F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3D5B5C1024848B8000BDB8F9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3D5B5C1324848B8000BDB8F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3D5B5C1524848B8000BDB8F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		3D5B5BB724847B5B00BDB8F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D5B5BEB2484880200BDB8F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D5B5C0424848B7F00BDB8F9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -43,6 +86,8 @@
 			isa = PBXGroup;
 			children = (
 				3D5B5BBC24847B5B00BDB8F9 /* BitPrice */,
+				3D5B5BEF2484880200BDB8F9 /* BitPriceMac */,
+				3D5B5C0824848B7F00BDB8F9 /* BitPriceTV */,
 				3D5B5BBB24847B5B00BDB8F9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -51,6 +96,8 @@
 			isa = PBXGroup;
 			children = (
 				3D5B5BBA24847B5B00BDB8F9 /* BitPrice.app */,
+				3D5B5BEE2484880200BDB8F9 /* BitPriceMac.app */,
+				3D5B5C0724848B7F00BDB8F9 /* BitPriceTV.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -78,6 +125,49 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		3D5B5BEF2484880200BDB8F9 /* BitPriceMac */ = {
+			isa = PBXGroup;
+			children = (
+				3D5B5BF02484880200BDB8F9 /* AppDelegate.swift */,
+				3D5B5BF22484880200BDB8F9 /* ContentView.swift */,
+				3D5B5BF42484880300BDB8F9 /* Assets.xcassets */,
+				3D5B5BF92484880300BDB8F9 /* Main.storyboard */,
+				3D5B5BFC2484880300BDB8F9 /* Info.plist */,
+				3D5B5BFD2484880300BDB8F9 /* BitPriceMac.entitlements */,
+				3D5B5BF62484880300BDB8F9 /* Preview Content */,
+			);
+			path = BitPriceMac;
+			sourceTree = "<group>";
+		};
+		3D5B5BF62484880300BDB8F9 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3D5B5BF72484880300BDB8F9 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3D5B5C0824848B7F00BDB8F9 /* BitPriceTV */ = {
+			isa = PBXGroup;
+			children = (
+				3D5B5C0924848B7F00BDB8F9 /* AppDelegate.swift */,
+				3D5B5C0B24848B7F00BDB8F9 /* ContentView.swift */,
+				3D5B5C0D24848B8000BDB8F9 /* Assets.xcassets */,
+				3D5B5C1224848B8000BDB8F9 /* LaunchScreen.storyboard */,
+				3D5B5C1524848B8000BDB8F9 /* Info.plist */,
+				3D5B5C0F24848B8000BDB8F9 /* Preview Content */,
+			);
+			path = BitPriceTV;
+			sourceTree = "<group>";
+		};
+		3D5B5C0F24848B8000BDB8F9 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3D5B5C1024848B8000BDB8F9 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -98,6 +188,40 @@
 			productReference = 3D5B5BBA24847B5B00BDB8F9 /* BitPrice.app */;
 			productType = "com.apple.product-type.application";
 		};
+		3D5B5BED2484880200BDB8F9 /* BitPriceMac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D5B5BFE2484880300BDB8F9 /* Build configuration list for PBXNativeTarget "BitPriceMac" */;
+			buildPhases = (
+				3D5B5BEA2484880200BDB8F9 /* Sources */,
+				3D5B5BEB2484880200BDB8F9 /* Frameworks */,
+				3D5B5BEC2484880200BDB8F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BitPriceMac;
+			productName = BitPriceMac;
+			productReference = 3D5B5BEE2484880200BDB8F9 /* BitPriceMac.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3D5B5C0624848B7F00BDB8F9 /* BitPriceTV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D5B5C1624848B8000BDB8F9 /* Build configuration list for PBXNativeTarget "BitPriceTV" */;
+			buildPhases = (
+				3D5B5C0324848B7F00BDB8F9 /* Sources */,
+				3D5B5C0424848B7F00BDB8F9 /* Frameworks */,
+				3D5B5C0524848B7F00BDB8F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BitPriceTV;
+			productName = BitPriceTV;
+			productReference = 3D5B5C0724848B7F00BDB8F9 /* BitPriceTV.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -109,6 +233,12 @@
 				ORGANIZATIONNAME = "Apps KC";
 				TargetAttributes = {
 					3D5B5BB924847B5B00BDB8F9 = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+					3D5B5BED2484880200BDB8F9 = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+					3D5B5C0624848B7F00BDB8F9 = {
 						CreatedOnToolsVersion = 11.4.1;
 					};
 				};
@@ -127,6 +257,8 @@
 			projectRoot = "";
 			targets = (
 				3D5B5BB924847B5B00BDB8F9 /* BitPrice */,
+				3D5B5BED2484880200BDB8F9 /* BitPriceMac */,
+				3D5B5C0624848B7F00BDB8F9 /* BitPriceTV */,
 			);
 		};
 /* End PBXProject section */
@@ -139,6 +271,28 @@
 				3D5B5BCA24847B5C00BDB8F9 /* LaunchScreen.storyboard in Resources */,
 				3D5B5BC724847B5B00BDB8F9 /* Preview Assets.xcassets in Resources */,
 				3D5B5BC424847B5B00BDB8F9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D5B5BEC2484880200BDB8F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D5B5BFB2484880300BDB8F9 /* Main.storyboard in Resources */,
+				3D5B5BF82484880300BDB8F9 /* Preview Assets.xcassets in Resources */,
+				3D5B5C02248488FA00BDB8F9 /* Assets.xcassets in Resources */,
+				3D5B5BF52484880300BDB8F9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D5B5C0524848B7F00BDB8F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D5B5C1424848B8000BDB8F9 /* LaunchScreen.storyboard in Resources */,
+				3D5B5C1124848B8000BDB8F9 /* Preview Assets.xcassets in Resources */,
+				3D5B5C1A24848BFD00BDB8F9 /* Assets.xcassets in Resources */,
+				3D5B5C0E24848B8000BDB8F9 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -156,6 +310,26 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		3D5B5BEA2484880200BDB8F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D5B5C01248488EC00BDB8F9 /* BitData.swift in Sources */,
+				3D5B5BF32484880200BDB8F9 /* ContentView.swift in Sources */,
+				3D5B5BF12484880200BDB8F9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D5B5C0324848B7F00BDB8F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D5B5C1924848BF900BDB8F9 /* BitData.swift in Sources */,
+				3D5B5C0C24848B7F00BDB8F9 /* ContentView.swift in Sources */,
+				3D5B5C0A24848B7F00BDB8F9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
@@ -163,6 +337,22 @@
 			isa = PBXVariantGroup;
 			children = (
 				3D5B5BC924847B5C00BDB8F9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		3D5B5BF92484880300BDB8F9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D5B5BFA2484880300BDB8F9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3D5B5C1224848B8000BDB8F9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D5B5C1324848B8000BDB8F9 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -324,6 +514,98 @@
 			};
 			name = Release;
 		};
+		3D5B5BFF2484880300BDB8F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = BitPriceMac/BitPriceMac.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"BitPriceMac/Preview Content\"";
+				DEVELOPMENT_TEAM = 5SQFG95Y4R;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = BitPriceMac/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.appskc.BitPriceMac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		3D5B5C002484880300BDB8F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = BitPriceMac/BitPriceMac.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"BitPriceMac/Preview Content\"";
+				DEVELOPMENT_TEAM = 5SQFG95Y4R;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = BitPriceMac/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.appskc.BitPriceMac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		3D5B5C1724848B8000BDB8F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"BitPriceTV/Preview Content\"";
+				DEVELOPMENT_TEAM = 5SQFG95Y4R;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = BitPriceTV/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.appskc.BitPriceTV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 13.4;
+			};
+			name = Debug;
+		};
+		3D5B5C1824848B8000BDB8F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"BitPriceTV/Preview Content\"";
+				DEVELOPMENT_TEAM = 5SQFG95Y4R;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = BitPriceTV/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.appskc.BitPriceTV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 13.4;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -341,6 +623,24 @@
 			buildConfigurations = (
 				3D5B5BCF24847B5C00BDB8F9 /* Debug */,
 				3D5B5BD024847B5C00BDB8F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D5B5BFE2484880300BDB8F9 /* Build configuration list for PBXNativeTarget "BitPriceMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D5B5BFF2484880300BDB8F9 /* Debug */,
+				3D5B5C002484880300BDB8F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D5B5C1624848B8000BDB8F9 /* Build configuration list for PBXNativeTarget "BitPriceTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D5B5C1724848B8000BDB8F9 /* Debug */,
+				3D5B5C1824848B8000BDB8F9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
